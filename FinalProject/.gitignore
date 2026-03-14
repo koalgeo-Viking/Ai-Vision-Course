@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (don't commit large images)
+data/test_images/*.jpg
+data/test_images/*.png
+!data/test_images/.gitkeep
+data/solved_results/*.jpg
+data/solved_results/*.png
+!data/solved_results/.gitkeep
+
+# Models
+models/*.h5
+models/*.pt
+!models/.gitkeep
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
